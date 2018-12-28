@@ -64,6 +64,10 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.5",
     ],
+    install_requires=[
+        'django-auth-ldap>=1.2.8',
+        'six>=1.3'
+    ],
     packages=find_packages(exclude=[
         'tests', 'tests.*']),
     include_package_data=True,
